@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'TT Firs Neue'; 
+  src: url('fonts/TTFirsNeue-Regular.woff2') format('woff2');
+  font-style: normal; 
+  font-display: swap; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    width: 1920;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 1650px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 135px;
+    margin-right: 120px;
+    background-color: transparent;
+    
+}
+.navbarLogo{
+    width: 124px;
+    height: 28px;
+    margin-right: 120px;
+}
+.navbarPages{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 14px;
+    font-weight:normal
+}
+.navbarItem{
+    color: white;
+    margin: 0 24px 0 24px;
+}
+
+.navbarRight{
+    width: 307px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 218px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: #2F46E2;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbarButton:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.navbarButton:active{
+    transform: translateY(2px); 
+    box-shadow: 0 2px #666;
+}
+
+.navbarImg{
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+
+.lang{
+    display: flex;
+    margin-left: 48px;
+    color: white;
+}
+.langItem{
+    color: white;
+    margin-right: 2.5px;
+}
+
+
+

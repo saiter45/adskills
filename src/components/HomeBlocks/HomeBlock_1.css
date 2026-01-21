@@ -1,0 +1,96 @@
+.homeBlock{
+    width: 1920px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+    background-image: url("/src/assets/BG.png"); /* Я как понял там видео, но исходник нет возможности получить, так что кидаю заглушку.  */
+}
+.homeBlockCenter{
+    width: 1184px;
+    height: 453px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.centerTitle{
+    font-family: 'TT Firs Neue', sans-serif;
+    font-size: 100px;
+    line-height: 90%;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.centerText{
+    margin-top: 40px;
+    width: 506px;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.centerButton{
+    width: 182px;
+    height: 51px;
+    border-radius: 8px;
+    color: white;
+    background-color: #2F46E2;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.centerButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.centerButton:active{
+    transform: translateY(2px); 
+    box-shadow: 0 2px #666;
+}
+.homeBlockIcons{
+    display: grid;
+    position: absolute;
+    width: 1920px;
+    height: 870px;
+}
+.leftIcons{    
+    display: grid;
+    position: absolute;
+    width: 455px;
+    height: 366px;
+    top: 444px;
+    left: 140px;
+}
+.leftMoloco{
+    margin-left: 180px;
+}
+.leftVK{
+    margin-left: 60px;
+}
+.leftTelegram{
+    margin-left: 310px;
+}
+
+.rightIcons{    
+    display: grid;
+    position: absolute;
+    width: 455px;
+    height: 366px;
+    top: 444px;
+    right: 140px;
+}
+
+.rightHuawei{
+     margin-left: 326px;
+}
+
+.rightMintegral{
+    margin-left: 129px;
+}
+
+.rightXiaomi{
+    margin-left: 271px;
+}
