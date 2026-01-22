@@ -9,7 +9,7 @@ import Academy from "./pages/Academy";
 
 const App = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar />
       <div className="navbar-containter">
         <Routes>

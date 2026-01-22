@@ -14,12 +14,21 @@
     text-decoration: none;
     list-style-type: none;
     
+    
 }
 body{
-    width: 1920;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper{
+    position: relative;
+    display: block;
+    min-width: 1920px; 
 }
 
 .navbar{
@@ -34,9 +43,17 @@ body{
     align-items: center;
     margin-left: 135px;
     margin-right: 120px;
-    background-color: transparent;
-    
+    background-color: transparent;    
 }
+
+.navbar-white{
+    color: black;
+}
+
+.navbar-black{
+    color: white;
+}
+
 .navbarLogo{
     width: 124px;
     height: 28px;
@@ -50,7 +67,6 @@ body{
     font-weight:normal
 }
 .navbarItem{
-    color: white;
     margin: 0 24px 0 24px;
 }
 
@@ -97,10 +113,10 @@ body{
 .lang{
     display: flex;
     margin-left: 48px;
-    color: white;
+
 }
 .langItem{
-    color: white;
+
     margin-right: 2.5px;
 }
 
