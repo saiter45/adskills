@@ -12,14 +12,14 @@ const Navbar = () => {
 
   let currentLogo = logo;
 
-  if (location.pathname === "/") {
+  if (location.pathname === "/home") {
     currentLogo = logo;
   } else {
     currentLogo = blackLogo;
   }
 
   useEffect(() => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/home") {
       setNavClass("navbar-black");
     } else {
       setNavClass("navbar-white");
@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <ul className="navbarPages">
-        <Link to="/" className="navbarLogo">
+        <Link to="/home" className="navbarLogo">
           <img src={currentLogo} alt="" />
         </Link>
         <Link to="/refsystem" className={`navbarItem ${navClass}`}>

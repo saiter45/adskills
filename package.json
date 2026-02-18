@@ -1,5 +1,5 @@
 {
-  "homepage": "https://saiter45.github.io/adskills",
+  "homepage": "https://saiter45.github.io/adskills/",
   "name": "ad-skill-test",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
