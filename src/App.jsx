@@ -13,7 +13,7 @@ const App = () => {
       <Navbar />
       <div className="navbar-containter">
         <Routes>
-          <Route path="/adskills" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/refsystem" element={<RefSystem />} />
           <Route path="/partner" element={<Partner />} />
           <Route path="/about" element={<About />} />
